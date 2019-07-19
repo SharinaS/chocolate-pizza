@@ -1,38 +1,46 @@
 body {
     text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    text-align: left;
 }
 
 header {
     background-color: grey;
+    text-align: right;
 }
 
-nav>p {
-    margin: 35px;
+header>img {
+    margin: 0px;
     display: inline-block;
+    vertical-align: 200%;
+    
 }
 
-nav>img {
-    /* for image in nav bar */
-} 
 
-img {
-    margin: 15px;
-}
-
-#next-to-scroll-text {
-    float: left;
-    margin-left: 125px;
-    padding: 15px;
-}
-
-section>p {
-    overflow: scroll;
-    height: 400px;
+#top-left-corner {
     text-align: left;
-    float: left;
-    width: 460px;
-    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+    right: 35%;
+    height: 35px;
+
 }
+
+#top-left-corner > h2 p {
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+#pizza {
+    width: 100%;
+}
+
+
+
 
 footer {
     background-color: gray;
