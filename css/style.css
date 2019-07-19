@@ -35,7 +35,7 @@ header>img {
     bottom: 50px;
 }
 
-#pizza {
+#pizza #recipe{
     width: 100%;
 }
 
@@ -46,5 +46,15 @@ footer {
     background-color: gray;
     height: 100px;
     clear: both;
+}
+
+p {
+    text-align: left;
+    padding: 1em 0em 1em 0em;
+    text-indent: 2em;
+}
+
+#recipe {
+    width: 100%;
 }
 
