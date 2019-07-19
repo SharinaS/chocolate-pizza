@@ -2,6 +2,16 @@ body {
     text-align: center;
     margin: 20px;
 }
+.column{
+    float: left;
+    width: 40%;
+    display: block;
+}
+footer {
+    background-color: gray;
+    height: 100px;
+    clear: both;
+}
 
 h1 {
     text-align: left;
@@ -18,8 +28,37 @@ header>img {
     vertical-align: 200%;
     
 }
+input[type = checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+}
+/* input[type = checkbox] + label{
+    display: block;
+} */
+p {
+    text-align: left;
+    padding: 1em 0em 1em 0em;
+    text-indent: 2em;
+}
 
+#pizza {
+    width: 100%;
+}
 
+#recipe {
+    width: 100%;
+    background-image: url("../img/list-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#row{
+    text-align: left;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 #top-left-corner {
     text-align: left;
     display: inline-block;
@@ -33,28 +72,5 @@ header>img {
     position: relative;
     left: 50px;
     bottom: 50px;
-}
-
-#pizza #recipe{
-    width: 100%;
-}
-
-
-
-
-footer {
-    background-color: gray;
-    height: 100px;
-    clear: both;
-}
-
-p {
-    text-align: left;
-    padding: 1em 0em 1em 0em;
-    text-indent: 2em;
-}
-
-#recipe {
-    width: 100%;
 }
 
