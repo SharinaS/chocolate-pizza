@@ -4,8 +4,10 @@ body {
 }
 .column{
     float: left;
-    width: 40%;
+    width: 50%;
     display: block;
+    text-align: left;
+    padding: 2em 0 2em 0;
 }
 footer {
     background-color: gray;
@@ -16,7 +18,11 @@ footer {
 h1 {
     text-align: left;
 }
-
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
 header {
     background-color: grey;
     text-align: right;
@@ -28,12 +34,12 @@ header>img {
     vertical-align: 200%;
     
 }
+input{
+    margin: 0.5em 0 0 4em;
+}
 input[type = checkbox]:checked + label.strikethrough{
     text-decoration: line-through;
 }
-/* input[type = checkbox] + label{
-    display: block;
-} */
 p {
     text-align: left;
     padding: 1em 0em 1em 0em;
@@ -74,3 +80,21 @@ p {
     bottom: 50px;
 }
 
+.ven{
+    text-align: left;
+}
+.ven > *{
+    float: left;
+}
+#ven2{
+    width: 70%;
+    padding-left: 1em;
+}
+#ven2 > p{
+    text-align: left;
+    padding: 0;
+    text-indent: 0;
+}
+#ven3{
+    margin-top: 1em;
+}
