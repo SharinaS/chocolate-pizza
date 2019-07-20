@@ -1,3 +1,14 @@
+/* Shamelessly stolen from; https://www.w3schools.com/css/css3_buttons.asp */
+button {
+    background-color: rgb(177, 50, 19); 
+    border: none;
+    color: white;
+    padding: .5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 body {
     text-align: center;
     margin: 20px;
@@ -10,8 +21,6 @@ body {
     padding: 2em 0 2em 0;
 }
 footer {
-    background-color: gray;
-    height: 100px;
     clear: both;
 }
 
@@ -24,7 +33,6 @@ h3{
     padding-bottom: 0.5em;
 }
 header {
-    background-color: grey;
     text-align: right;
 }
 
@@ -34,9 +42,14 @@ header>img {
     vertical-align: 200%;
     
 }
+hr{
+    clear: both;
+    margin: 100px 0 30px 0;
+}
 input{
     margin: 0.5em 0 0 4em;
 }
+/* shamelessly stolen from; https://stackoverflow.com/questions/30975459/add-strikethrough-to-checked-checkbox */
 input[type = checkbox]:checked + label.strikethrough{
     text-decoration: line-through;
 }
@@ -87,7 +100,7 @@ p {
     float: left;
 }
 #ven2{
-    width: 70%;
+    width: 60%;
     padding-left: 1em;
 }
 #ven2 > p{
